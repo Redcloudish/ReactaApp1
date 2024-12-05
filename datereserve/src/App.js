@@ -8,12 +8,12 @@ import VisibilityControl from './VisibilityControl';
 
 function App() {
 
-  const [userName] = useState("Couples"); // change 1
+  const [userName] = useState("Customer Couples"); // change 1
 
   const [todoItems, setTodoItems] = useState([{action: "Buy Flowers", done: false},
     {action: "Go on Dinner date", done: false},
     {action: "Buy Romantic Candles", done: true},
-    {action: "Book VIP Extra Room", done: false}
+    {action: "Book VIP Extra Package", done: false}
   ]);
 
   const[showCompleted, setShowCompleted] = useState(true); 
